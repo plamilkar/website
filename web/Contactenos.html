@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8">
+<title>AMK IT - Contactenos</title>
+<style>
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background:  #008000;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav a{
+        color:  #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+</style>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="container" align="center">
+            <nav>
+                <a href="Index.html">Inicio</a>
+                <a href="Nosotros.html">Acerca de nosotros</a>
+                <a href="Productos.html">Productos</a>
+                <a href="Servicios.html">Servicios</a>
+				<a href="Trabajos.html">Trabaje con nosotros</a>
+                <a href="Contactenos.html">Contactenos</a>
+            </nav>
+        </div>
+    </div>
+	<div>
+	<font color="Maroon" face="courier new">
+		<h1 align="center">
+		<strong>Contactenos</strong>
+		</h1>
+		
+	</font>	
+	<form action="#">
+			<fieldset>
+				<legend>Informacion de Contacto</legend>
+				<div>
+					<label for="nombres">Nombres:</label>
+					<input id="nombres" type="text" name="nombres">
+				</div><br>
+				<div>
+					<label for="email">Email:</label>
+					<input id="email" type="text" name="email">
+				</div><br>
+				<div>
+					<label for="telefono">Telefono:</label>
+					<input id="telefono" type="text" name="telefono">
+				</div><br>
+				<div>
+					<label for="informacion">Informacion Requerida:</label>
+					<textarea id="informacion" cols="40" rows="5"></textarea>
+				</div><br>
+			</fieldset>
+			<div>
+				<input type="submit" name="submit" value="Enviar">
+				<input type="reset" name="reset" value="Limpiar">
+			</div><br>
+	</form>
+		
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2020 AMK IT Company</div>        
+    </div>
+	
+</body>
+
+</html>
+
+
